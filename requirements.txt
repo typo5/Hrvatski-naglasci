@@ -2,4 +2,4 @@ streamlit
 classla
 beautifulsoup4
 requests
-torch==2.5.1
+
