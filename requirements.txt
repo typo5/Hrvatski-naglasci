@@ -1,0 +1,4 @@
+streamlit
+classla
+beautifulsoup4
+requests
