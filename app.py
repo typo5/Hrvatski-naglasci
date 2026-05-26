@@ -16,7 +16,7 @@ def ucitaj_model():
 
 @st.cache_resource
 def ucitaj_bazu():
-    with open(r"C:\Users\stipe\AppData\Local\Programs\Microsoft VS Code\hjp_baza.json", "r", encoding="utf-8") as f:
+    with open("hjp_baza.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
 # ── POMOĆNE FUNKCIJE ─────────────────────────────────────────────────
