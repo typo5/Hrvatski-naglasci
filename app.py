@@ -11,6 +11,7 @@ st.title("Hrvatski naglasci")
 
 @st.cache_resource
 def ucitaj_model():
+    classla.download('hr')
     return classla.Pipeline('hr', processors='tokenize,pos,lemma')
 
 @st.cache_resource
